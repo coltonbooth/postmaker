@@ -28,7 +28,17 @@ If you choose to create a new post, you will be prompted to enter the title, dat
 
 If you choose to edit an existing post, you will be presented with a list of existing posts. Choose the post you want to edit by entering its corresponding number. You will then be able to edit the title, date, and content of the post. Press Ctrl+G to save the changes and exit the editor.
 
-### index.php
+## index.php
 The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from the posts directory and displays them in reverse chronological order, with pagination support.
 
 To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
+
+## Customization
+
+You can customize the number of posts displayed per page by modifying the $postsPerPage variable in the index.php file.
+
+You can also customize the appearance of the website by modifying the style.css file.
+
+## License
+
+This project is open source and available under the MIT License.
