@@ -17,3 +17,18 @@ To run the application, navigate to the directory where postmaker.py is located 
 ```
 python postmaker.py
 ```
+
+This will launch the main screen, where you can choose to create a new post or edit an existing post.
+
+### Create a new post
+
+If you choose to create a new post, you will be prompted to enter the title, date, and content of the post. Press Ctrl+G to save the post and exit the editor. The post will be saved as an HTML file in the posts directory.
+
+### Edit an existing post
+
+If you choose to edit an existing post, you will be presented with a list of existing posts. Choose the post you want to edit by entering its corresponding number. You will then be able to edit the title, date, and content of the post. Press Ctrl+G to save the changes and exit the editor.
+
+### index.php
+The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from the posts directory and displays them in reverse chronological order, with pagination support.
+
+To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
