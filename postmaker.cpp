@@ -14,7 +14,7 @@ using namespace std;
 using namespace htmlcxx;
 
 
-string posts_dir = "/Users/colton/Documents/BoothSoftware";
+string posts_dir = "/var/www/posts";
 
 string get_post_file_name();
 void create_new_post(WINDOW *main_win);
