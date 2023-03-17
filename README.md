@@ -9,6 +9,16 @@ Pagination support for displaying a specified number of posts per page.
 A responsive design that works well on desktop and mobile devices.
 
 ## Usage
+### C++ version
+postmaker.cpp is where you'll find the source to the C++ version of postmaker. This version uses htmlcxx to format the post html.
+
+`g++ -std=c++11 -I/opt/homebrew/Cellar/htmlcxx/0.87/include/ postmaker.cpp -o postmaker -L/opt/homebrew/lib -lhtmlcxx -lncurses` is the command I used to compile it on macOS (Arm). I will update this readme once I compile it on my linux box. 
+
+You'll need to `brew install htmlcxx` 
+
+Usage is the same as the python version below. Simply run `./postmaster` in the directory you compiled it and you'll be presented with the main screen where you can either write a new post or edit a previous one.
+
+### Python
 
 The postmaker.py script is a Python application that allows you to create and edit blog posts using a simple command-line interface. It uses the curses library to provide a text-based user interface.
 
