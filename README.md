@@ -16,7 +16,7 @@ postmaker.cpp is where you'll find the source to the C++ version of postmaker. T
 
 You'll need to `brew install htmlcxx` 
 
-Usage is the same as the python version below. Simply run `./postmaster` in the directory you compiled it and you'll be presented with the main screen where you can either write a new post or edit a previous one.
+Usage is the same as the python version below. Simply run `./postmaker` in the directory you compiled it and you'll be presented with the main screen where you can either write a new post or edit a previous one.
 
 ### Python
 
