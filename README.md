@@ -9,6 +9,10 @@ Pagination support for displaying a specified number of posts per page.
 A responsive design that works well on desktop and mobile devices.
 
 ## Usage
+### index.php
+The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from the posts directory and displays them in reverse chronological order, with pagination support.
+
+To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
 ### C++ version
 postmaker.cpp is where you'll find the source to the C++ version of postmaker. This version uses htmlcxx to format the post html.
 
@@ -19,7 +23,6 @@ You'll need to `brew install htmlcxx`
 Usage is the same as the python version below. Simply run `./postmaker` in the directory you compiled it and you'll be presented with the main screen where you can either write a new post or edit a previous one.
 
 ### Python
-
 The postmaker.py script is a Python application that allows you to create and edit blog posts using a simple command-line interface. It uses the curses library to provide a text-based user interface.
 
 To run the application, navigate to the directory where postmaker.py is located and run the following command:
@@ -38,10 +41,6 @@ If you choose to create a new post, you will be prompted to enter the title, dat
 
 If you choose to edit an existing post, you will be presented with a list of existing posts. Choose the post you want to edit by entering its corresponding number. You will then be able to edit the title, date, and content of the post. Press Ctrl+G to save the changes and exit the editor.
 
-## index.php
-The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from the posts directory and displays them in reverse chronological order, with pagination support.
-
-To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
 
 ## Customization
 
