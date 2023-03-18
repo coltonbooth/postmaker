@@ -13,6 +13,10 @@ A responsive design that works well on desktop and mobile devices.
 The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from `./posts` and displays them in reverse chronological order, with pagination support.
 
 To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
+
+### index-generator.py
+index-generator.py is used to generate the initial index.php file from the text it prompts you to enter. This is useful if you don't want to edit the index-sample.php included in the repo. Just run `python index.generator.py` to get started.
+
 ### C++ version of `postmaker` desktop
 postmaker.cpp is where you'll find the source to the C++ version of postmaker. This version uses htmlcxx to format the post html.
 
