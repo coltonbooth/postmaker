@@ -10,10 +10,10 @@ A responsive design that works well on desktop and mobile devices.
 
 ## Usage
 ### index.php
-The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from the posts directory and displays them in reverse chronological order, with pagination support.
+The index.php file is a PHP script that displays the blog posts on a website. It reads the HTML files from `./posts` and displays them in reverse chronological order, with pagination support.
 
 To use index.php, you will need a web server with PHP support. Copy the index.php file, the style.css file, and the posts directory (with the HTML files) to your web server's document root. Then, navigate to the URL of the index.php file in your web browser to view the blog posts.
-### C++ version
+### C++ version of `postmaker` desktop
 postmaker.cpp is where you'll find the source to the C++ version of postmaker. This version uses htmlcxx to format the post html.
 
 `g++ -std=c++11 -I/opt/homebrew/Cellar/htmlcxx/0.87/include/ postmaker.cpp -o postmaker -L/opt/homebrew/lib -lhtmlcxx -lncurses` is the command I used to compile it on macOS (Arm). I will update this readme once I compile it on my linux box. 
@@ -22,7 +22,7 @@ You'll need to `brew install htmlcxx`
 
 Usage is the same as the python version below. Simply run `./postmaker` in the directory you compiled it and you'll be presented with the main screen where you can either write a new post or edit a previous one.
 
-### Python
+### Python version of `postmaker` desktop
 The postmaker.py script is a Python application that allows you to create and edit blog posts using a simple command-line interface. It uses the curses library to provide a text-based user interface.
 
 To run the application, navigate to the directory where postmaker.py is located and run the following command:
